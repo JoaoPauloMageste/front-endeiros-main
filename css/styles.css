@@ -1,0 +1,48 @@
+*{
+    /*ox-sizing é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos.*/
+    box-sizing: border-box;
+    /*é uma propriedade abreviada para configurar uma ou mais das propriedades de contorno em uma única declaração.*/
+    outline: none;
+    /* Ela permite definir a transição entre dois estados de um elemento.*/
+    transition: .1s;
+}
+html, body {
+    /* permite que se faça uma lista de prioridades de familias de fontes e/ou nomes genéricos de famílias a serem especificados para um elemento selecionado.*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*estabelece o tamanho da fonte.*/
+    font-size: 16px;
+    /*Faz parte do conjunto de propriedades utilizadas na linguagem de estilo para definir o background*/
+    background-image: url('../assets/img/bg01.jpg'); 
+    /*define a cor de fundo de um elemento.*/
+    background-color: rgb(0, 88, 56);
+    /*determina se aquela posição da imagem é fixa com o viewport, ou se irá rolar juntamente com o seu bloco.*/
+    background-attachment: fixed;
+    /*Serev para determinar se a imagem de fundo que colocamos no codigo e em seguida para visualizar no browser*/
+    background-repeat: no-repeat;
+    /*define a posição inicial, relativa a posição de fundo na camada definido por background-origin, para cada background image definido.*/
+    background-position: center;
+    /*especifica o tamanho das imagens de fundo.*/
+    background-size: auto;
+
+
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    /*define a área de margem nos quatro lados do elemento.*/
+    margin: 0;
+    /*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    padding: 1rem 0;
+}
+
+a {
+    /* definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações (estilos).*/
+    color: steelblue;
+    /*é usada para definir a formatação de  underline, overline, line-through ou blink. */
+    text-decoration: none;
+}
+/*corresponde quando o usuario designa um elemento apontador(seta do mouse)*/
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
