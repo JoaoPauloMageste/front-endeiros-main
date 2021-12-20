@@ -28,6 +28,8 @@ html, body {
 }
 
 header{
+display: flex;
+fle
     background-color: rgb(138, 255, 202);
 }
 
@@ -45,6 +47,13 @@ margin-top: 0.3rem;
 margin-left: 0.3rem;
 margin-bottom: 0.3rem;
 margin-right: 0.6rem;
+
+}
+
+header>h1{
+
+font-size: 1.8rem;
+margin: 0;
 
 }
 
