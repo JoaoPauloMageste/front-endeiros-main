@@ -80,6 +80,22 @@ main>aside{
  padding:0 1rem;
 }
 
+footer{
+    display: flex;
+    background-color: rgb(0, 64, 16);
+    color: rgb(224, 255, 224);
+justify-content: space-between;
+align-items: center;
+padding: 1px;
+}
+
+footer>a{
+font-size: 1.3rem;
+padding: .5rem;
+}
+
+
+
 
 
 
