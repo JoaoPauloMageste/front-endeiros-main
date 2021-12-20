@@ -27,6 +27,28 @@ html, body {
 
 }
 
+header{
+    background-color: rgb(138, 255, 202);
+}
+
+header>nav {
+
+    background-color: rgb(3, 74, 42);
+}
+
+header>a>img {
+
+display:block; 
+width: 4.5rem;
+height: 4.5rem;    
+margin-top: 0.3rem;
+margin-left: 0.3rem;
+margin-bottom: 0.3rem;
+margin-right: 0.6rem;
+
+}
+
+
 p, h1, h2, h3, h4, h5, h6 {
     /*define a área de margem nos quatro lados do elemento.*/
     margin: 0;
